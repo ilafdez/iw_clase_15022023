@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h1 span {
+    color: #037bc0;
+}
+
+/*
+nav a:nth-child(2){
+    text-transform: uppercase;
+}*/
+nav a {
+    text-transform: uppercase;
+}
+
+.navegacion a {
+    text-transform: lowercase;
+}
+
+#navegacion a {
+    text-transform: capitalize;
+}
+
+.navegacion a {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: #037bc0;
+}
+
+.sobre-nosotros {
+    background-color: red;
+    width: 200px;
+    padding: 25px;
+    margin-top: 100px;
+}
+
+.sobre-empresa {
+    background-color: blue;
+    width: 500px;
+    padding: 100px;
+}
