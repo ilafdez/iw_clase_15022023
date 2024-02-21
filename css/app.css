@@ -1,53 +1,152 @@
 html {
     box-sizing: border-box;
 }
-
 *,
 *:before,
 *:after {
     box-sizing: inherit;
 }
+/*Globales*/
+body{
+    font-family: "Raleway", sans-serif;
+}
 
-h1 {
+img{
+    max-width: 100%;
+    display: block;
+}
+
+h1, h2, h3 {
+    font-family: "Playfair Display", serif;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+    margin:0 0 50px 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000
+}
+.contenedor{
+    max-width: 1200px;
+    margin-inline: auto;
+}
+/*Cabecera*/
+.nombre-sitio{
+    color: rgba(0,0,0,1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.nombre-sitio span{
+    color:#037bc0;
+}
+.nav-principal{
+    /*border-top-style:solid;
+    border-width: 1px;
+    border-color: #e1e1e1;*/
+    padding:20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor-navegacion{
+    border-top: 1px solid #e1e1e1;
+}
+.hero{
+    background-image: url('../img/principal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 550px;
+}
+/*seccion categorias*/
+.listado-categorias{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+.categorias{
+    padding-top: 50px;
+}
+.categorias h2{
+    text-align: center;
+}
+.categorias a{
+    text-align: center;
+    display: block;
+    padding: 20px;
     font-size: 20px;
 }
-
-h1 span {
-    color: #037bc0;
+.categorias a:hover{
+    background-color: #037bc0;
+    color: white; 
+    border-bottom-right-radius: 10px;
+    
 }
-
-/*
-nav a:nth-child(2){
-    text-transform: uppercase;
-}*/
-nav a {
-    text-transform: uppercase;
+.sobre-nosotros{
+    display: flex;
+    height: 600px;
 }
-
-.navegacion a {
-    text-transform: lowercase;
+.box-1{
+    background-image: url(../img/nosotros.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-basis: 50%;
 }
-
-#navegacion a {
-    text-transform: capitalize;
-}
-
-.navegacion a {
-    text-transform: uppercase;
-    font-weight: bold;
-    text-decoration: none;
-    color: #037bc0;
-}
-
-.sobre-nosotros {
-    background-color: red;
-    width: 200px;
-    padding: 25px;
-    margin-top: 100px;
-}
-
-.sobre-empresa {
-    background-color: blue;
-    width: 500px;
+.box-2{
+    background-color: #037bc0;
+    color: white;
+    text-align: justify;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 100px;
+
 }
+/*main - listado productos*/
+.contenido-principal{
+    padding-top: 50px;
+}
+.producto{
+    background-color: #037bc0;
+}
+.info-producto{
+    text-align: center;
+    color:white;
+    padding: 20px;
+}
+.info-producto p{
+    margin: 0 0 5px 0;
+}
+.info-producto h3{
+    margin: 0;
+}
+.precio{
+    font-size: 28px;
+    font-weight: 900;
+}
+.info-producto a{
+    background-color: #8cbc00;
+    display: block;
+    color:white;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 10px;
+    transition: background-color .3s ease-out;
+}
+.info-producto a:hover{
+    background-color: #769c02;
+}
+
+

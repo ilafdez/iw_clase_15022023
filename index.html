@@ -6,103 +6,141 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ecommerce - Home</title>
         <link rel="stylesheet" href="css/app.css">
-        <
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
     </head>
     <body>
         <header>
             <h1 class="nombre-sitio">Tienda <span> Muebles </span></h1>
         </header>
+        <div class="contenedor-navegacion">
+            <nav class="contenedor nav-principal">
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="tienda.html">Tienda</a>
+                <a href="blog.html">Blog</a>
+                <a href="galeria.html">Galería</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
 
-        <nav class="navegacion">
-            <a href="index.html">Inicio</a>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="tienda.html">Tienda</a>
-            <a href="blog.html">Blog</a>
-            <a href="galeria.html">Galería</a>
-            <a href="contacto.html">Contacto</a>
-        </nav>
-        <section>
+        <div class="hero"></div>
+
+        <section class="categorias contenedor">
             <h2>Categorías de productos</h2>
-            <div>
-                <img src="img/categoria1.jpg" alt="Imagen de categoría 1">
-                <a href="#">Oficina</a>
-            </div>
-            <div>
-                <img src="img/categoria2.jpg" alt="Imagen de categoría 2">
-                <a href="#">Hogar</a>
-            </div>
-            <div>
-                <img src="img/categoria2.jpg" alt="Imagen de categoría 2">
-                <a href="#">Cocina</a>
+            <div class="listado-categorias">
+                <div>
+                    <img src="img/categoria1.jpg" alt="Imagen de categoría 1">
+                    <a href="#">Oficina</a>
+                </div>
+                <div>
+                    <img src="img/categoria2.jpg" alt="Imagen de categoría 2">
+                    <a href="#">Hogar</a>
+                </div>
+                <div>
+                    <img src="img/categoria2.jpg" alt="Imagen de categoría 2">
+                    <a href="#">Cocina</a>
+                </div>
             </div>
         </section>
         <section class="sobre-nosotros">
-            <div>
+            <div class="box-1"></div>
+            <div class="box-2">
                 <h2>Sobre nosotros</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, repudiandae facilis. Adipisci doloremque ab, qui rem repellat sint ipsam eius hic temporibus nam ea non pariatur saepe quidem minima necessitatibus!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quaerat, repudiandae facilis. Adipisci doloremque ab, qui
+                    rem repellat sint ipsam eius hic temporibus nam ea non
+                    pariatur saepe quidem minima necessitatibus!</p>
             </div>
         </section>
-        <section class="sobre-empresa">
-            <div>
-                <h2>Sobre empresa</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, repudiandae facilis. Adipisci doloremque ab, qui rem repellat sint ipsam eius hic temporibus nam ea non pariatur saepe quidem minima necessitatibus!</p>
-            </div>
-        </section>
-        <main>
+        <main class="contenedor contenido-principal">
             <section>
                 <h2>Nuestros productos</h2>
-                <div>
-                    <article>
-                        <img src="img/producto1.jpg" alt ="Imagen del producto 1">
-                        <div>
+                <div class="listado-productos">
+                    <article class="producto">
+                        <img src="img/producto1.jpg"
+                            alt="Imagen del producto 1">
+                        <div class="info-producto">
                             <h3>Producto1</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis ab, consequuntur voluptas quod ex nihil unde nesciunt. Eligendi itaque nam dolorum, distinctio quis saepe dolorem doloribus ipsa iste tenetur sunt.</p>
-                            <p>595€</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Reiciendis ab, consequuntur
+                                voluptas quod ex nihil unde nesciunt. Eligendi
+                                itaque nam dolorum, distinctio quis saepe
+                                dolorem doloribus ipsa iste tenetur sunt.</p>
+                            <p class="precio">595€</p>
                             <a href="#"> Agregar al carrito </a>
                         </div>
                     </article>
-                    <article>
-                        <img src="img/producto2.jpg" alt ="Imagen del producto 2">
-                        <div>
+                    <article class="producto">
+                        <img src="img/producto2.jpg"
+                            alt="Imagen del producto 2">
+                        <div class="info-producto">
                             <h3>Producto2</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis ab, consequuntur voluptas quod ex nihil unde nesciunt. Eligendi itaque nam dolorum, distinctio quis saepe dolorem doloribus ipsa iste tenetur sunt.</p>
-                            <p>595€</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Reiciendis ab, consequuntur
+                                voluptas quod ex nihil unde nesciunt. Eligendi
+                                itaque nam dolorum, distinctio quis saepe
+                                dolorem doloribus ipsa iste tenetur sunt.</p>
+                            <p class="precio">595€</p>
                             <a href="#"> Agregar al carrito </a>
                         </div>
                     </article>
-                    <article>
-                        <img src="img/producto3.jpg" alt ="Imagen del producto 3">
-                        <div>
+                    <article class="producto">
+                        <img src="img/producto3.jpg"
+                            alt="Imagen del producto 3">
+                        <div class="info-producto">
                             <h3>Producto3</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis ab, consequuntur voluptas quod ex nihil unde nesciunt. Eligendi itaque nam dolorum, distinctio quis saepe dolorem doloribus ipsa iste tenetur sunt.</p>
-                            <p>595€</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Reiciendis ab, consequuntur
+                                voluptas quod ex nihil unde nesciunt. Eligendi
+                                itaque nam dolorum, distinctio quis saepe
+                                dolorem doloribus ipsa iste tenetur sunt.</p>
+                            <p class="precio">595€</p>
                             <a href="#"> Agregar al carrito </a>
                         </div>
                     </article>
-                    <article>
-                        <img src="img/producto4.jpg" alt ="Imagen del producto 4">
-                        <div>
+                    <article class="producto">
+                        <img src="img/producto4.jpg"
+                            alt="Imagen del producto 4">
+                        <div class="info-producto">
                             <h3>Producto4</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis ab, consequuntur voluptas quod ex nihil unde nesciunt. Eligendi itaque nam dolorum, distinctio quis saepe dolorem doloribus ipsa iste tenetur sunt.</p>
-                            <p>595€</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Reiciendis ab, consequuntur
+                                voluptas quod ex nihil unde nesciunt. Eligendi
+                                itaque nam dolorum, distinctio quis saepe
+                                dolorem doloribus ipsa iste tenetur sunt.</p>
+                            <p class="precio">595€</p>
                             <a href="#"> Agregar al carrito </a>
                         </div>
                     </article>
-                    <article>
-                        <img src="img/producto5.jpg" alt ="Imagen del producto 5">
-                        <div>
+                    <article class="producto">
+                        <img src="img/producto5.jpg"
+                            alt="Imagen del producto 5">
+                        <div class="info-producto">
                             <h3>Producto5</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis ab, consequuntur voluptas quod ex nihil unde nesciunt. Eligendi itaque nam dolorum, distinctio quis saepe dolorem doloribus ipsa iste tenetur sunt.</p>
-                            <p>595€</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Reiciendis ab, consequuntur
+                                voluptas quod ex nihil unde nesciunt. Eligendi
+                                itaque nam dolorum, distinctio quis saepe
+                                dolorem doloribus ipsa iste tenetur sunt.</p>
+                            <p class="precio">595€</p>
                             <a href="#"> Agregar al carrito </a>
                         </div>
                     </article>
-                    <article>
-                        <img src="img/producto6.jpg" alt ="Imagen del producto 6">
-                        <div>
+                    <article class="producto">
+                        <img src="img/producto6.jpg"
+                            alt="Imagen del producto 6">
+                        <div class="info-producto">
                             <h3>Producto6</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis ab, consequuntur voluptas quod ex nihil unde nesciunt. Eligendi itaque nam dolorum, distinctio quis saepe dolorem doloribus ipsa iste tenetur sunt.</p>
-                            <p>595€</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Reiciendis ab, consequuntur
+                                voluptas quod ex nihil unde nesciunt. Eligendi
+                                itaque nam dolorum, distinctio quis saepe
+                                dolorem doloribus ipsa iste tenetur sunt.</p>
+                            <p class="precio">595€</p>
                             <a href="#"> Agregar al carrito </a>
                         </div>
                     </article>
@@ -110,8 +148,8 @@
             </section>
         </main>
 
-        <footer >
-            <div >
+        <footer>
+            <div>
                 <div>
                     <h3>Categorías</h3>
 
@@ -136,7 +174,7 @@
 
                 <div>
                     <h3>Soporte</h3>
-                    <nav >
+                    <nav>
                         <a href="#">Preguntas Frecuentes</a>
                         <a href="#">Ayuda en línea</a>
                         <a href="#">Confianza y Seguridad</a>
